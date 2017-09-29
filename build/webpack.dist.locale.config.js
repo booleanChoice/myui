@@ -18,7 +18,7 @@ module.exports = {
         path: path.resolve(__dirname, '../dist/locale'),
         publicPath: '/dist/locale/',
         filename: '[name].js',
-        library: 'artery/locale',
+        library: 'mycomponent/locale',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },

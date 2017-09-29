@@ -1,9 +1,9 @@
 {
-  "name": "artery",
+  "name": "demo",
   "version": "1.0.0",
-  "title": "Artery6",
-  "description": "An artery6 UI components Library with Vue.js",
-  "author": "Artery",
+  "title": "my project",
+  "description": "A UI components Library with Vue.js",
+  "author": "liujianzhao",
   "license": "MIT",
   "files": [
     "dist",

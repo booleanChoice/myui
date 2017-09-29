@@ -12,7 +12,7 @@ gulp.task('css', function () {
             browsers: ['last 2 versions', 'ie > 8']
         }))
         .pipe(cleanCSS())
-        .pipe(rename('artery.css'))
+        .pipe(rename('mycomponent.css'))
         .pipe(gulp.dest('../dist/styles'));
 });
 

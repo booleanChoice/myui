@@ -10,13 +10,13 @@ import Notice from './components/notice';
 import Message from './components/message';
 import locale from './locale';
 
-const artery = {
-    iButton: Button,
+const mycomponent = {
+    myButton: Button,
     Button,
     ButtonGroup: Button.Group,
     Icon,
     Input,
-    iInput: Input,
+    myInput: Input,
     LoadingBar,
     Message,
     Notice
@@ -26,8 +26,8 @@ const install = function (Vue, opts = {}) {
     locale.use(opts.locale);
     locale.i18n(opts.i18n);
 
-    Object.keys(artery).forEach((key) => {
-        Vue.component(key, artery[key]);
+    Object.keys(mycomponent).forEach((key) => {
+        Vue.component(key, mycomponent[key]);
     });
 
     Vue.prototype.$Loading = LoadingBar;

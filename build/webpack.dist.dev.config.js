@@ -12,8 +12,8 @@ module.exports = merge(webpackBaseConfig, {
     output: {
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/dist/',
-        filename: 'artery.js',
-        library: 'artery',
+        filename: 'mycomponent.js',
+        library: 'mycomponent',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },
